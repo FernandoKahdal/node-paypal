@@ -1,0 +1,25 @@
+{
+  "name": "node-paypal",
+  "author": "Mike McNeil <mike@balderdash.co>",
+  "contributors": [ 
+    { "name": "Balderdash Design Co.", "email": "dev@balderdash.co" }, 
+    { "name": "Mike McNeil", "email": "mike@balderdash.co" }
+  ],
+  "version": "12.10.24",
+  "description": "Paypal API Adapter for Node.js: Starting w/ payments pro",
+  "homepage": "http://balderdash.co",
+  "keywords": ["Paypal", "API", "Payments Pro"],
+  "main": "lib/common",
+  "directories": {
+    "lib": "lib"
+  },
+  "dependencies": {
+    "request": "=2.11.4"
+  },
+  "licenses": [{
+    "type": "MIT"
+  }],
+  "engines": {
+    "node": ">= 0.6.4"
+  }
+}
